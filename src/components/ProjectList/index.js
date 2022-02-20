@@ -6,43 +6,19 @@ function ProjectList() {
   const [projects] = useState([
     {
       name: 'HikeSpot',
-      category: 'commercial',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      description: '',
+      tech: '',
+      image: ''
     },
     {
-      name: 'Grocery booth',
-      category: 'commercial',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Building exterior',
-      category: 'commercial',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Restaurant table',
-      category: 'commercial',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Cafe interior',
-      category: 'commercial',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Cat green eyes',
-      category: 'portraits',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+      name: 'Blech',
+      description: '',
+      tech: '',
+      image: ''
     }
   ]);
 
-  const [currentProject, setCurrentProject] = useState();
+  const setCurrentProject = useState();
 
   const toggleModal = (project, i) => {
     setCurrentProject({...project, index: i});

@@ -1,13 +1,14 @@
 import React from 'react';
 
-function Modal() {
+const Modal = ({ onClose, currentProject }) => {
+    const { name, description, tech, } = currentProject;
 
     return (
         <div className="modalBackdrop">
             <div className="modalContainer">
-                <h3 className="projectTitle">project title</h3>
-                <p>project description</p>
-                <p>technologies used:</p>
+                <h3 className="projectTitle">{name}</h3>
+                <p>{description}</p>
+                <p>technologies used: {tech}</p>
                 <section>
                     links
                 </section>
