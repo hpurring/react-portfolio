@@ -1,32 +1,21 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-function Nav(props) {
-
-    return (
-        <header>
-            <h2>
-                <a>
-                    hilary purrington
-                </a>
-            </h2>
-            <nav>
-                <ul className='flex-row'>
-                    <li className='mx-2'>
-                        <a href='#about'>about me</a>
-                    </li>
-                    <li className='mx-2'>
-                       <a href='#portfolio'>portfolio</a>
-                    </li>
-                    <li className='mx-2'>
-                       <a href='#contact'>contact</a>
-                    </li>
-                    <li className='mx-2'>
-                        <a href='#resume'>resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    );
+function Nav() {
+    <div className='navBar'>
+        <NavLink to='/about' className='nav' activeClassName='nav-selected'>
+            about
+        </NavLink>
+        <NavLink to='/portfolio' className='nav' activeClassName='nav-selected'>
+            portfolio
+        </NavLink>
+        <NavLink to='/resume' className='nav' activeClassName='nav-selected'>
+            resume
+        </NavLink>
+        <NavLink to='/contact' className='nav' activeClassName='nav-selected'>
+            contact
+        </NavLink>
+    </div>
 }
 
 export default Nav;
