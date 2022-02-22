@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Nav from '../Nav';
 import About from '../About';
@@ -9,20 +9,15 @@ import Resume from '../Resume';
 
 function Header() {
     return (
-        <HashRouter> Hello
-            <Nav>Hello</Nav>
+        <Router> 
+            <Nav></Nav>
             <Routes>
-                <Route exact path='/'>
-                    <Navigate to='/about' />
-                </Route>
-                <Route path="/about">
-                    <About></About>
-                </Route>
-                <Route path="/portfolio" component={Portfolio} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/resume" component={Resume} />
+                <Route path="/about" element={<About />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/resume" element={<Resume />} />
             </Routes>
-        </HashRouter>
+        </Router>
     )
 }
 

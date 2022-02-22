@@ -3,7 +3,9 @@ import ProjectList from '../ProjectList';
 
 function Portfolio() {
     return (
-        <ProjectList />
+        <div>
+            {ProjectList}
+        </div>
     );
 }
 

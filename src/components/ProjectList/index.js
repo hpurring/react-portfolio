@@ -6,43 +6,48 @@ function ProjectList() {
   const [projects] = useState([
     {
       name: 'HikeSpot',
-      description: '',
-      tech: '',
-      image: ''
+      description: 'Find your next hiking location! See the weather, access a new playlist, and plan your escape.',
+      tech: 'HTML, CSS, Bootstrap, server APIs,',
+      image: '',
+      github: 'https://github.com/hpurring/proj-01-HikeSpot',
+      deployed: 'https://hpurring.github.io/proj-01-HikeSpot/'
     },
     {
       name: 'Blech',
-      description: '',
-      tech: '',
-      image: ''
+      description: 'a tech blog where users can create blog posts and comment on others\' posts.',
+      tech: 'HTML, CSS, Handlebars, Express.js, MySQL, Sequelize',
+      image: '',
+      github: 'https://github.com/hpurring/blech',
+      deployed: 'https://still-citadel-57293.herokuapp.com/'
     }
   ]);
 
-  const setCurrentProject = useState();
+  const [currentProject, setCurrentProject = useState();
 
-  const toggleModal = (project, i) => {
-    setCurrentProject({...project, index: i});
+  const toggleModal = (image, i) => {
+    setCurrentProject({...image, index: i});
     setIsModalOpen(!isModalOpen);
-  }
+  };
 
   return (
     <div>
       {isModalOpen && (
-      <Modal onClose={toggleModal} />
+      <Modal onClose={toggleModal} currentProject={currentProject} />
       )}
       <div className="flex-row">
-        {projects.map((project, i) => (
+        {currentProject.map((image, i) => (
           <img
-            // src={require(`../../assets/projects/${i}.jpg`).default}
-            alt={project.name}
+            // src={require(`../../assets/small/${category}/${i}.jpg`).default}
+            alt={image.name}
             className="img-thumbnail mx-1"
-            onClick={() => toggleModal(project, i)}
-            key={project.name}
+            onClick={() => toggleModal(image, i)}
+            key={image.name}
           />
         ))}
       </div>
     </div>
   );
-};
+
+}
 
 export default ProjectList;
