@@ -22,7 +22,7 @@ function ProjectList() {
     }
   ]);
 
-  const [currentProject, setCurrentProject = useState();
+  const [currentProject, setCurrentProject] = useState();
 
   const toggleModal = (image, i) => {
     setCurrentProject({...image, index: i});

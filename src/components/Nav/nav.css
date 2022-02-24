@@ -1,0 +1,18 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    padding: 5px;
+}
+
+#siteName {
+    font-size: 36px;
+    justify-content: center;
+}
+
+#subtitle {
+    font-size: 16px;
+    justify-content: center;
+}
