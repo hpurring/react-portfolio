@@ -1,15 +1,20 @@
 .navBar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav {
     padding: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 #siteName {
     font-size: 36px;
     justify-content: center;
+    text-decoration: none;
+    color: black;
 }
 
 #subtitle {
