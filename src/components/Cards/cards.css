@@ -1,3 +1,10 @@
+:root {
+    --first-color: #f4f4f4;
+    --second-color: #373737;
+    --third-color: #dcd0c0;
+    --fourth-color: #e9cc75;
+}
+
 .container {
     display: grid;
     grid-auto-rows: auto;
@@ -6,27 +13,66 @@
 }
 
 .card {
+    display: flex;
+    justify-content: center;
     position: relative;
-    background: lightgray;
+    background: var(--second-color);
     height: 400px;
     width: 300px;
     overflow: hidden;
     box-shadow: 5px 5px 20px black;
     margin: 20px 20px;
+    border-radius: 3px;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+}
+
+/*  Assigning properties to inner
+    content of card  */
+.card_inner {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    font-family: 'Rato', sans-serif;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    opacity: 0;
+    padding: 2rem 1.3rem 2rem 2rem;
+    transition: all 0.4s ease 0s;
+    text-align: center;
+    padding: 30px;
+}
+
+/*  On hovering card opacity
+    of content must be 1*/
+.card_inner:hover {
+    opacity: .9;
 }
 
 .card img {
-    width: 100%;
-    margin: 0 auto;
+    /* width: 90%; */
+    width: 275px;
+    height: 275px;
+    object-fit:cover;
+    margin: auto;
     position: absolute; 
-    bottom:0
+    bottom: 3%;
 }
 
 .card:hover {
     cursor: pointer;
-    transform: scale(105%);
     box-shadow: 5px 5px 20px black;
-    opacity: .65;
+    /* opacity: .5; */
+    -webkit-transform: translate(1em,0);
+    -moz-transform: translate(1em,0);
+    -o-transform: translate(1em,0);
+    -ms-transform: translate(1em,0);
+    transform: scale(105%)
     
 }
 
@@ -35,10 +81,46 @@
     transform: scale(95%);
 }
 
-h1 {
-    font-size: 24px;
+#project_title {
+    margin-top: 12%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    color: var(--fourth-color);
+    font-family: 'Rock Salt', cursive;
+    font-weight: lighter;
 }
 
-h3 {
-    font-size: 14px;
+#project_desc {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    color: var(--second-color)
+}
+
+#project_tech {
+    margin-top: 40%;
+    margin-bottom: 20%;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#card_btn {
+    padding: 10px;
+    margin: 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--second-color);
+    background-color: var(--first-color);
+    border-radius: 3px;;
+
+}
+
+#card_btn:hover {   
+    color: var(--first-color);
+    background-color: var(--fourth-color);
 }
