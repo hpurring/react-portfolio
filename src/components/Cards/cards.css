@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card {
+    position: relative;
+    background: lightgray;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px black;
+    margin: 20px 20px;
+}
+
+.card img {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute; 
+    bottom:0
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    box-shadow: 5px 5px 20px black;
+    opacity: .65;
+    
+}
+
+.card:active {
+    box-shadow: none;
+    transform: scale(95%);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px;
+}
