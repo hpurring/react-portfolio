@@ -23,7 +23,7 @@
   Use this site to access my coding portfolio and contact information.
   
   ![My portfolio](https://github.com/hpurring/react-portfolio/blob/main/src/assets/photos/react-app-screenshot.png)
-  [Explore my portfolio.](https://hpurring.github.io/react-portfolio/)
+  [Explore my portfolio.](https://hpurring.github.io)
 
 
   ## Credits
