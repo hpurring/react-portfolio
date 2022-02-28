@@ -27,7 +27,7 @@
 .home-btn {
 	transition: all 0.4s ease 0s;
 	text-decoration: none;
-	color: var(--fourth-color);
+	color: var(--second-color);
 }
 
 .home-btn:hover {
