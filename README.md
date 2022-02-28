@@ -22,8 +22,8 @@
   ## Usage
   Use this site to access my coding portfolio and contact information.
   
-  ![My portfolio](https://github.com/hpurring/blech/blob/main/public/images/blech_screenshot.png)
-  [Explore my portfolio.](https://still-citadel-57293.herokuapp.com/)
+  ![My portfolio](hhttps://github.com/hpurring/react-portfolio/blob/main/src/assets/photos/react-app-screenshot.png)
+  [Explore my portfolio.](https://hpurring.github.io/react-portfolio/)
 
 
   ## Credits
