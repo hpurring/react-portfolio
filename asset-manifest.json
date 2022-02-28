@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9c50dc5c.css",
-    "main.js": "/react-portfolio/static/js/main.6cf82ebe.js",
+    "main.css": "/react-portfolio/static/css/main.322ce287.css",
+    "main.js": "/react-portfolio/static/js/main.0c4185ed.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hikespot.png": "/react-portfolio/static/media/hikespot.336d155c57becb512b55.png",
     "static/media/readme.png": "/react-portfolio/static/media/readme.281d0dd9e9cdd4b52416.png",
@@ -11,13 +11,14 @@
     "static/media/teamprofiles.png": "/react-portfolio/static/media/teamprofiles.b4a6d545acac6d2f8f7e.png",
     "static/media/Purrington-headshot2.jpg": "/react-portfolio/static/media/Purrington-headshot2.b1e4dcd026d617b973d1.jpg",
     "static/media/teamtracker.png": "/react-portfolio/static/media/teamtracker.2a0435d9adbc1767f158.png",
+    "static/media/instagram.png": "/react-portfolio/static/media/instagram.a8ad7a51cf585edef082.png",
     "index.html": "/react-portfolio/index.html",
-    "main.9c50dc5c.css.map": "/react-portfolio/static/css/main.9c50dc5c.css.map",
-    "main.6cf82ebe.js.map": "/react-portfolio/static/js/main.6cf82ebe.js.map",
+    "main.322ce287.css.map": "/react-portfolio/static/css/main.322ce287.css.map",
+    "main.0c4185ed.js.map": "/react-portfolio/static/js/main.0c4185ed.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c50dc5c.css",
-    "static/js/main.6cf82ebe.js"
+    "static/css/main.322ce287.css",
+    "static/js/main.0c4185ed.js"
   ]
 }
