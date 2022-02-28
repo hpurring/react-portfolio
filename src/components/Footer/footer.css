@@ -25,12 +25,19 @@
 }
 
 .home-btn {
+    margin-top: 1%;
 	transition: all 0.4s ease 0s;
 	text-decoration: none;
 	color: var(--second-color);
+    filter: invert(50%);
+}
+
+.home-btn img {
+    height: 30px;
 }
 
 .home-btn:hover {
 	transform: scale(110%);
-	color: var(--first-color);
+	color: var(--fourth-color);
+    filter: invert(75%);
 }
