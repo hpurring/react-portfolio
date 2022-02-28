@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.fa94dd89.css",
-    "main.js": "/react-portfolio/static/js/main.ec0b5849.js",
+    "main.css": "/react-portfolio/static/css/main.6b9afc79.css",
+    "main.js": "/react-portfolio/static/js/main.bc3a30a9.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/hikespot.png": "/react-portfolio/static/media/hikespot.336d155c57becb512b55.png",
+    "static/media/readme.png": "/react-portfolio/static/media/readme.281d0dd9e9cdd4b52416.png",
+    "static/media/blech.png": "/react-portfolio/static/media/blech.9cb4bb45de9828562aac.png",
+    "static/media/Purrington-headshot.jpg": "/react-portfolio/static/media/Purrington-headshot.581ea0dab0d6d053d554.jpg",
+    "static/media/covfit.png": "/react-portfolio/static/media/covfit.e5a828ca0069d35420c5.png",
+    "static/media/teamprofiles.png": "/react-portfolio/static/media/teamprofiles.b4a6d545acac6d2f8f7e.png",
+    "static/media/Purrington-headshot2.jpg": "/react-portfolio/static/media/Purrington-headshot2.b1e4dcd026d617b973d1.jpg",
+    "static/media/teamtracker.png": "/react-portfolio/static/media/teamtracker.2a0435d9adbc1767f158.png",
     "index.html": "/react-portfolio/index.html",
-    "main.fa94dd89.css.map": "/react-portfolio/static/css/main.fa94dd89.css.map",
-    "main.ec0b5849.js.map": "/react-portfolio/static/js/main.ec0b5849.js.map",
+    "main.6b9afc79.css.map": "/react-portfolio/static/css/main.6b9afc79.css.map",
+    "main.bc3a30a9.js.map": "/react-portfolio/static/js/main.bc3a30a9.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa94dd89.css",
-    "static/js/main.ec0b5849.js"
+    "static/css/main.6b9afc79.css",
+    "static/js/main.bc3a30a9.js"
   ]
 }
