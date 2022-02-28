@@ -6,6 +6,19 @@
     background-color: var(--third-color);
 }
 
+.bio-photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio-headshot {
+    height: 600px;
+    width: auto;
+    transform: scaleX(-1);
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 #about {
     text-align: left;
     font-family: 'Rock Salt', cursive;
