@@ -12,7 +12,7 @@ function Nav() {
             <NavLink to='/portfolio' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
                 portfolio
             </NavLink>
-            <NavLink to='/react-portfolio/' className={({ isActive }) => (isActive ? 'active' : 'inactive')} id='siteName'>
+            <NavLink to='/react-portfolio' className={({ isActive }) => (isActive ? 'active' : 'inactive')} id='siteName'>
                 hilary purrington
             </NavLink>
             <NavLink to='/resume' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
