@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6b9afc79.css",
+    "main.css": "/react-portfolio/static/css/main.2d4e071f.css",
     "main.js": "/react-portfolio/static/js/main.6cf82ebe.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hikespot.png": "/react-portfolio/static/media/hikespot.336d155c57becb512b55.png",
@@ -12,12 +12,12 @@
     "static/media/Purrington-headshot2.jpg": "/react-portfolio/static/media/Purrington-headshot2.b1e4dcd026d617b973d1.jpg",
     "static/media/teamtracker.png": "/react-portfolio/static/media/teamtracker.2a0435d9adbc1767f158.png",
     "index.html": "/react-portfolio/index.html",
-    "main.6b9afc79.css.map": "/react-portfolio/static/css/main.6b9afc79.css.map",
+    "main.2d4e071f.css.map": "/react-portfolio/static/css/main.2d4e071f.css.map",
     "main.6cf82ebe.js.map": "/react-portfolio/static/js/main.6cf82ebe.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b9afc79.css",
+    "static/css/main.2d4e071f.css",
     "static/js/main.6cf82ebe.js"
   ]
 }
