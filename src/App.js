@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div> 
+    <div className='site_container'> 
       <Header></Header>
       <Footer></Footer>
     </div>

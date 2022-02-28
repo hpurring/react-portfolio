@@ -34,20 +34,24 @@ function ContactForm() {
   };
 
   return (
+    <div className='contact-me'>
     <section id='contact-page'>
-      <h1 data-testid="h1tag">contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name: </label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+      <h1 className='contact-header'>contact me</h1>
+        <div className='form-field'>
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} size='40'/>
+          <br></br>
+          <label htmlFor="name">name</label>
         </div>
-        <div>
-          <label htmlFor="email">Email address: </label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div className='form-field'>
+          <input type="email" name="email" defaultValue={email} onBlur={handleChange} size='40'/>
+          <br></br>
+          <label htmlFor="email">email address</label>
         </div>
-        <div>
-          <label htmlFor="message">Message: </label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+        <div className='form-field'>
+          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} rows="15" cols="75"/>
+          <br></br>
+          <label htmlFor="message">message</label>
         </div>
         {errorMessage && (
           <div>
@@ -55,9 +59,18 @@ function ContactForm() {
           </div>
         )}
         <button data-testid="button" type="submit">Submit</button>
+        <br></br>
       </form>
-      <a>or, send me an email at: hilarypurrington@gmail.com.</a>
+      <iframe className='map-frame' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103302.12393680878!2d-78.95770616691132!3d35.99119033989305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace471120f66f1%3A0xe17ada898a46f27e!2sDurham%2C%20NC!5e0!3m2!1sen!2sus!4v1645995841646!5m2!1sen!2sus" width="500" height="500" style={{ border: "0" }} allowfullscreen="" loading="lazy"></iframe>
+      
     </section>
+    <div className='home-buttons'>
+      <a className='home-btn' href="https://github.com/hpurring" target="_blank">github</a>
+      <a className='home-btn' href="https://www.linkedin.com/in/hilarypurrington/" target="_blank">linkedin</a>
+      <a className='home-btn' href="mailto:hilarypurrington@gmail.com" target="_blank">email</a>
+      <a className='home-btn' href="https://www.instagram.com/hilarypurrington/" target="_blank">instagram</a>
+    </div>
+    </div>
   );
 }
 

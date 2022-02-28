@@ -1,3 +1,10 @@
+:root {
+  --first-color: #f4f4f4;
+  --second-color: #373737;
+  --third-color: #707070;
+  --fourth-color: #FFDF6C;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +43,8 @@
     transform: rotate(360deg);
   }
 }
+
+.site_container {
+  background-color: var(--third-color);
+}
+

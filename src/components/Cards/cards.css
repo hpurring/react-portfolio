@@ -1,15 +1,29 @@
-:root {
-    --first-color: #f4f4f4;
-    --second-color: #373737;
-    --third-color: #dcd0c0;
-    --fourth-color: #e9cc75;
+#portfolio {
+    background-color: var(--first-color);
+    height: 150vh;
+    padding-bottom: 5%;
+    padding-top: 20px;
+}
+
+
+.recent-projects {
+    font-family: 'Rock Salt', cursive;
+    color: var(--second-color);
+    text-align: left;
+    margin-left: 40px;
 }
 
 .container {
     display: grid;
     grid-auto-rows: auto;
     grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    width: auto;
+    margin-bottom: 10%;
 }
 
 .card {
@@ -17,8 +31,8 @@
     justify-content: center;
     position: relative;
     background: var(--second-color);
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     overflow: hidden;
     box-shadow: 5px 5px 20px black;
     margin: 20px 20px;
@@ -56,12 +70,12 @@
 
 .card img {
     /* width: 90%; */
-    width: 275px;
-    height: 275px;
+    width: 300px;
+    height: 300px;
     object-fit:cover;
     margin: auto;
     position: absolute; 
-    bottom: 3%;
+    bottom: 5%;
 }
 
 .card:hover {
@@ -85,7 +99,7 @@
     margin-top: 12%;
     margin-bottom: 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     color: var(--fourth-color);
     font-family: 'Rock Salt', cursive;
     font-weight: lighter;
@@ -95,14 +109,14 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
     color: var(--second-color)
 }
 
 #project_tech {
-    margin-top: 40%;
+    margin-top: 15%;
     margin-bottom: 20%;
     font-size: 24px;
     font-weight: lighter;

@@ -1,20 +1,79 @@
-#contact-page {
-    padding: 25px;
+.contact-me {
+	padding: 25px;
+	background-color: var(--third-color);
 }
 
-h1 {
+#contact-page {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contact-header {
+	font-family: 'Rock Salt', cursive;
+	color: var(--fourth-color);
     text-align: left;
 }
 
+#contact-form {
+	font-family: 'Rato', sans-serif;
+	color: var(--first-color);	
+	margin-left: 20px;
+}
+
+.form-field {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
 button {
-	background: rgb(137, 35, 238);
+	background: var(--fourth-color);
 	border: 0;
 	border-radius: 5px;
-	color: #ffff;
+	color: var(--second-color);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 30px;
     margin-top: 30px;
-	padding: 10px 15px;	
+	padding: 10px 10px;	
+	transition: all 0.4s ease 0s;
 }
+
+button:hover {
+	color: var(--second-color);
+	background-color: var(--first-color);
+	transform: scale(110%);
+}
+
+textarea {
+	resize: none;
+}
+
+.map-iframe {
+	margin-bottom: 20px;
+}
+
+.home-buttons {
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	font-family: 'Rock Salt';
+	font-size: 30px;
+	
+}
+
+.home-btn {
+	transition: all 0.4s ease 0s;
+	text-decoration: none;
+	color: var(--fourth-color);
+}
+
+.home-btn:hover {
+	transform: scale(110%);
+	color: var(--first-color);
+}
+

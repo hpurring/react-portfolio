@@ -1,9 +1,20 @@
 .bio {
-    padding: 25px;
+    height: 100vh;
+    padding: 40px;
     font-size: 25px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    background-color: var(--third-color);
 }
 
 #about {
     text-align: left;
+    font-family: 'Rock Salt', cursive;
+    color: var(--fourth-color);
+
+}
+
+.bio-content {
+    color: var(--first-color);
+    font-family: 'Rato', sans-serif;
+    font-weight: lighter;
 }

@@ -1,11 +1,10 @@
 import React from 'react';
-import ProjectList from '../ProjectList';
+import Cards from '../Cards';
 
 function Portfolio() {
     return (
         <div>
-            {ProjectList}
-            project list
+            {Cards}
         </div>
     );
 }
