@@ -72,10 +72,11 @@
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
 @media screen and (max-width: 980px) {
-    navBar {
+    .navBar {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 }
