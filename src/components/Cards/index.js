@@ -9,6 +9,23 @@ function Cards() {
         <div className="container">
         <div className="card">
             <div id="title_desc">
+                <h1 id="project_title">QRad</h1>
+            </div>
+            <img src={require("../../assets/projects/qrad.png")} alt="QRad screenshot" srcset="" />
+            <div className="card_inner">
+                <h3 id='project_tech'>Create a digital business card and save others' contact information. Built with React, Node.js, GraphQL, MongoDB, and Apollo. Deployed with Heroku.</h3>
+                <div id='buttons'>
+                    <a id="card_btn" href="https://salty-wave-44811.herokuapp.com/" target="_blank">
+                        demo
+                    </a>
+                    <a id="card_btn" href="https://github.com/hpurring/project-3-group-a" target="_blank">
+                        github
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div className="card">
+            <div id="title_desc">
                 <h1 id="project_title">cov-fit</h1>
             </div>
             <img src={require("../../assets/projects/covfit.png")} alt="COV-FIT screenshot" srcset="" />
@@ -58,7 +75,7 @@ function Cards() {
                 </div>
             </div>
         </div>
-        <div className="card">
+        {/* <div className="card">
             <div id="title_desc">
                 <h1 id="project_title">Team Profiles</h1>
             </div>
@@ -74,7 +91,7 @@ function Cards() {
                     </a>
                 </div>
             </div>
-        </div>
+        </div> */}
         <div className="card">
             <div id="title_desc">
                 <h1 id="project_title">Team Tracker</h1>
