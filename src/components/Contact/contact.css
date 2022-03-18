@@ -47,10 +47,6 @@ button:hover {
 	transform: scale(110%);
 }
 
-textarea {
-	resize: none;
-}
-
 .map-iframe {
 	margin-bottom: 20px;
 }
@@ -78,3 +74,26 @@ textarea {
 	color: var(--first-color);
 } */
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 1100) {
+
+    #contact-page {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+    }
+
+	.mapframe {
+		width: 200px;
+		height: 300px;
+		margin-bottom: 0px;
+	}
+
+	.message {
+		width: 200px;
+	}
+
+	
+	
+
+}
