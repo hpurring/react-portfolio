@@ -5,21 +5,14 @@
     --fourth-color: #FFDF6C;
 }
 
+
 .navBar {
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: space-around;
     align-items: center;
     background-color: var(--second-color);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
-}
-
-.nav {
-    padding: 5px;
-    font-family: Rato, sans-serif;
-    text-decoration: none;
-    color: var(--fourth-color);
-    transition: all 0.4s ease 0s;
 }
 
 .inactive {
@@ -77,6 +70,11 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: auto;
+        text-align: center;
+    }
+
+    #siteName {
+        font-size: 24px;
     }
 }

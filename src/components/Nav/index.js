@@ -4,7 +4,7 @@ import './nav.css';
 
 function Nav() {
     return (
-
+        
         <div className='navBar'>
             <NavLink to='/about' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
                 about
