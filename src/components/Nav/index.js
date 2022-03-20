@@ -6,14 +6,14 @@ function Nav() {
     return (
         
         <div className='navBar'>
-            <NavLink to='/about' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+            {/* <NavLink to='/about' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
                 about
+            </NavLink> */}
+            <NavLink to='/react-portfolio' className={({ isActive }) => (isActive ? 'active' : 'inactive')} id='siteName'>
+                hilary purrington
             </NavLink>
             <NavLink to='/portfolio' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
                 portfolio
-            </NavLink>
-            <NavLink to='/react-portfolio' className={({ isActive }) => (isActive ? 'active' : 'inactive')} id='siteName'>
-                hilary purrington
             </NavLink>
             <NavLink to='/resume' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
                 resume

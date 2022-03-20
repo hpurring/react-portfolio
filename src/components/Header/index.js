@@ -15,7 +15,7 @@ function Header() {
             <Nav></Nav>
             <Routes>
                 <Route path="/react-portfolio" element={<Home />} />
-                <Route path="/about" element={<About />} />
+                {/* <Route path="/about" element={<About />} /> */}
                 <Route path="/portfolio" element={<Cards />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/resume" element={<Resume />} />
