@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1ccbfd79.css",
-    "main.js": "/react-portfolio/static/js/main.f2e1f640.js",
+    "main.css": "/react-portfolio/static/css/main.17e246c4.css",
+    "main.js": "/react-portfolio/static/js/main.8dbb041b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hikespot.png": "/react-portfolio/static/media/hikespot.336d155c57becb512b55.png",
     "static/media/readme.png": "/react-portfolio/static/media/readme.281d0dd9e9cdd4b52416.png",
@@ -13,12 +13,12 @@
     "static/media/qrad.png": "/react-portfolio/static/media/qrad.2d550f17c4360300afb5.png",
     "static/media/instagram.png": "/react-portfolio/static/media/instagram.a8ad7a51cf585edef082.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1ccbfd79.css.map": "/react-portfolio/static/css/main.1ccbfd79.css.map",
-    "main.f2e1f640.js.map": "/react-portfolio/static/js/main.f2e1f640.js.map",
+    "main.17e246c4.css.map": "/react-portfolio/static/css/main.17e246c4.css.map",
+    "main.8dbb041b.js.map": "/react-portfolio/static/js/main.8dbb041b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ccbfd79.css",
-    "static/js/main.f2e1f640.js"
+    "static/css/main.17e246c4.css",
+    "static/js/main.8dbb041b.js"
   ]
 }
