@@ -1,16 +1,17 @@
 #portfolio {
     background-color: var(--first-color);
-    height: 150vh;
-    padding-bottom: 15%;
-    padding-top: 20px;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 
 .recent-projects {
     font-family: 'Rock Salt', cursive;
     color: var(--second-color);
-    text-align: left;
-    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 0px;
 }
 
 .container {
