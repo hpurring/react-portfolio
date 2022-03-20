@@ -49,7 +49,7 @@ function ContactForm() {
           <label htmlFor="email">email address</label>
         </div>
         <div className='form-field'>
-          <textarea className='message' name="message" rows="5" defaultValue={message} onBlur={handleChange} rows="15" cols="50"/>
+          <textarea className='message' name="message" rows="5" defaultValue={message} onBlur={handleChange} rows="15" cols="35"/>
           <br></br>
           <label htmlFor="message">message</label>
         </div>

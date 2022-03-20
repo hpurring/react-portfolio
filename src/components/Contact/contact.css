@@ -1,13 +1,16 @@
 .contact-me {
 	padding: 25px;
 	background-color: var(--third-color);
+	width: auto%;
 }
 
 #contact-page {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	padding-bottom: 5%;
+	width: auto;
 }
 
 .contact-header {
@@ -20,6 +23,7 @@
 	font-family: 'Rato', sans-serif;
 	color: var(--first-color);	
 	margin-left: 20px;
+	width: auto;
 }
 
 .form-field {
@@ -77,18 +81,13 @@ button:hover {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 1100) {
 
-    #contact-page {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-    }
+    /* #contact-page {
+		width: auto;
+		display: block;
+		padding-bottom: 5%;
+    } */
 
-	.mapframe {
-		width: 200px;
-		height: 300px;
-		margin-bottom: 0px;
-	}
-
+	
 	.message {
 		width: 200px;
 	}
