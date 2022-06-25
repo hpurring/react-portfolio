@@ -23,7 +23,10 @@ function Home() {
             <br></br>
             In addition to pursuing my work as a software developer, I continue to freelance as a classical composer specializing in concert music. At its core, composing music is creative problem solving—not unlike coding. My musical training has meaningfully informed my development as a software engineer, allowing me to think creatively in both solo and collaborative efforts.
             <br></br>
-            <br></br>I received a bachelor's degree from the Shepherd School of Music at Rice University, master's degrees from The Juilliard School and Yale University, and a certificate in full-stack web development from Columbia University's School of Engineering.
+            <br></br>
+            I received a bachelor's degree from the Shepherd School of Music at Rice University, master's degrees from The Juilliard School and Yale University, and a certificate in full-stack web development from Columbia University's School of Engineering.
+            Learn more about my music work <a href="http://hilarypurrington.com/index.html" target="_blank" className="music-link">here.</a>
+
           </a>
         </div>
       </div>

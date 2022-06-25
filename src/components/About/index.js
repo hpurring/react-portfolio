@@ -11,6 +11,9 @@ function About() {
                     <br></br>
                     <br></br>
                     I received a bachelor's degree from the Shepherd School of Music at Rice University, master's degrees from The Juilliard School and Yale University, and I'm currently completing a coding certificate at Columbia University's School of Engineering.</a>
+                    <br></br>
+                    <br></br>
+                    <a>Check out my music work <a href="http://hilarypurrington.com/index.html">here.</a></a>
                 </div>
                 <img className='bio-headshot' src={require("../../assets/photos/Purrington-headshot.jpg")} alt="COV-FIT screenshot"/>
             </div>

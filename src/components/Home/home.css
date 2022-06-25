@@ -35,7 +35,7 @@
   }
   
   .home-header {
-    color: var(--first-color);
+    color: var(--fourth-color);
     font-size: 3.25vw;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
@@ -74,6 +74,19 @@
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
+
+  .music-link {
+    text-decoration: none;
+    color: var(--fourth-color);
+
+  }
+
+  .music-link:hover {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+  
 
   .tech-container {
     margin: 0px 50px 0px 50px;
