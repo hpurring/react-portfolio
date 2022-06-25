@@ -36,7 +36,7 @@ function ContactForm() {
   return (
     <div className='contact-me'>
     <section id='contact-page'>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      {/* <form id="contact-form" onSubmit={handleSubmit}>
       <h1 className='contact-header'>contact me</h1>
         <div className='form-field'>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} size='40'/>
@@ -60,7 +60,30 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
         <br></br>
-      </form>
+      </form> */}
+      <div>
+      <h1 className='contact-header'>contact me</h1>
+        <div className='contact-buttons'> 
+        
+                <div className='contact-name'>
+                  
+                  <a className='contact-btn' href="mailto:hilarypurrington@gmail.com" target="_blank"><img src={require("../../assets/photos/envelope.svg.png")} alt="email link"/></a> 
+                  <a>email</a>                 
+                </div>
+                <div className='contact-name'>                 
+                  <a className='contact-btn' href="https://www.linkedin.com/in/hilarypurrington/" target="_blank"><img src={require("../../assets/photos/linkedin.svg.png")} alt="LinkedIn link"/></a>
+                  <a>LinkedIn</a>
+                </div>
+                <div className='contact-name'>         
+                  <a className='contact-btn' href="https://github.com/hpurring" target="_blank"><img src={require("../../assets/photos/github.png")} alt="Github link" /></a>
+                  <a>Github</a>
+                </div>  
+                <div className='contact-name'>                  
+                  <a className='contact-btn' href="https://www.instagram.com/hilarypurrington/" target="_blank"><img src={require("../../assets/photos/instagram.png")} alt="Instagram link"/></a>
+                  <a>Instagram</a>
+                </div>
+            </div>
+      </div>
       <iframe className='map-frame' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103302.12393680878!2d-78.95770616691132!3d35.99119033989305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace471120f66f1%3A0xe17ada898a46f27e!2sDurham%2C%20NC!5e0!3m2!1sen!2sus!4v1645995841646!5m2!1sen!2sus" width="500" height="500" style={{ border: "0" }} allowfullscreen="" loading="lazy"></iframe>
       
     </section>
