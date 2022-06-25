@@ -14,7 +14,7 @@ function Home() {
           <h1 className="home-header"></h1>
         </div>
       </div>
-      <div className="bio-container">
+      <div className="bio-container" id='bio-container'>
         <h1 className="bio-header">about me</h1>
         <div className="bio-content">
           <a>

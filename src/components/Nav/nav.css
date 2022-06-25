@@ -1,17 +1,22 @@
 :root {
-    --first-color: #f4f4f4;
-    --second-color: #373737;
-    --third-color: #707070;
-    --fourth-color: #FFDF6C;
+    /* text */
+    --first-color: #373737;
+    /* secondary background */
+    --second-color: #f4f4f4;
+    /* background */
+    --third-color: #ffffff;
+    /* accent */
+    --fourth-color: #303179; 
 }
 
 
 .navBar {
     display: flex;
+    height: 12vh;
     width: auto;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--second-color);
+    background-color: var(--third-color);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
 }
 
@@ -36,7 +41,7 @@
 }
 
 #siteName {
-    font-size: 36px;
+    font-size: 42px;
     font-family: 'Sedgwick Ave', cursive;
     justify-content: center;
     text-decoration: none;
