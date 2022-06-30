@@ -47,7 +47,7 @@ function Cards() {
             </div>
             <img src={require("../../assets/projects/blech.png")} alt="blech screenshot" srcset="" />
             <div className="card_inner">
-                <h3 id='project_tech'>Create and edit blog posts and comment on others' posts. ses Node.js and Express.js to create a RESTful API; Handlebars.js; and MySQL and Sequelize ORM. Deployed with Heroku.</h3>
+                <h3 id='project_tech'>Create and edit blog posts and comment on others' posts. Uses Node.js and Express.js to create a RESTful API; Handlebars.js; and MySQL and Sequelize ORM. Deployed with Heroku.</h3>
                 <div id='buttons'>
                     <a id="card_btn" href="https://still-citadel-57293.herokuapp.com/" target="_blank">
                         demo
